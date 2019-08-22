@@ -1,0 +1,75 @@
+$main-font: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif
+
+body
+  font-family: $main-font
+  margin: 0 auto
+  background-color: #eee
+  p
+    text-align: center
+    color: #009933
+
+.nav-center
+  font-family: $main-font
+  text-align: center
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: #ff66ff
+  margin: 50px auto
+  height: 70px
+  li
+    display: inline-block
+    list-style-type: none
+    width: auto
+    padding: 15px
+  a
+    text-decoration: none
+    color: white
+    &:hover
+      color: #990099
+      transition: all .3s ease-in-out
+
+.nav-wrapper
+  display: flex
+  justify-content: center
+  align-items: center
+  text-align: center
+.nav-not-full
+  font-family: $main-font
+  background-color: #4dff88
+  height: 70px
+  width: 75vw
+  text-align: center
+  display: flex
+  justify-content: flex-end
+  align-items: center
+  border-radius: 5px
+  li
+    display: inline
+    list-style-type: none
+    margin-right: 15px
+  a
+    color: white
+    text-decoration: none
+    &:hover
+      color: #009933
+      transition: all .3s linear
+
+.vertical-nav
+  font-family: $main-font
+  background-color: #00ffff
+  width: 15vw
+  height: auto
+  margin-top: 50px
+  text-align: left
+  display: flex
+  li
+    display: block
+    list-style-type: none
+    padding: 5px
+  a
+    text-decoration: none
+    color: white
+    &:hover
+      color: #009999
+      transition: all .3s ease
