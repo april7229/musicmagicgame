@@ -1,0 +1,9 @@
+.context_box h1 {
+  display:flex;
+  justify-content: center;
+}
+
+.context_box h3{
+  display:flex;
+  justify-content: center;
+}
