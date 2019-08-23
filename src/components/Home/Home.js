@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
-// import './css/app.css';
-// importisModuleSpecifierRow from './MovieRow.js';
+import isModuleSpecifierRow from './HomeRow.js';
 import $ from 'jquery';
 // import Filters from "./filters/Filters";
 // import { homedir } from 'os';
-// import { isModuleSpecifier } from '@babel/types';
+import { isModuleSpecifier } from '@babel/types';
   
 
 
@@ -38,15 +37,15 @@ class Home extends Component {
 
                 // results.forEach((music) => {
                 //    isModuleSpecifier.poster_src = "https://image.tmdb.org/t/p/w185" +isModuleSpecifier.poster_path;
-                //     constisModuleSpecifierRow = <musicRow key={music.id}isModuleSpecifier={music}/>
+                    // constisModuleSpecifierRow = <musicRow key={music.id}isModuleSpecifier={music}/>
                 //    isModuleSpecifierRows.push(movieRow);
                 // });
 
                 // this.setState({rows:isModuleSpecifierRows, query: value, baseurl: baseurl});
             },
-            error: (xhr, status, err) => {
-                console.error(`Failed to fetch data ${err}`);
-            }
+            // error: (xhr, status, err) => {
+            //     console.error(`Failed to fetch data ${err}`);
+            // }
         });
     }
 
@@ -69,10 +68,10 @@ class Home extends Component {
                     <tbody>
                     <tr>
                         <td className="logo">
-                            <img alt="app icon" src="movies_icon.jpg"/>
+                            {/* <img alt="app icon" src="movies_icon.jpg"/> */}
                         </td>
                         <td className="title">
-                            <h1>isModuleSpecifiersDB Search </h1>
+                            <h1> Search </h1>
                         </td>
                         <td className="searchBarContainer">
                             <input className="searchBar" onChange={this.searchChangeHandler.bind(this)} placeholder="Enter search term"/>
