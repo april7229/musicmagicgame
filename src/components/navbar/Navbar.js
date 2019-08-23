@@ -11,7 +11,7 @@ import './Navbar.min.css';
           <nav className="nav-center">
         <ul>
           <li><a href="./Home">Home</a></li>
-          <li><a href="#">Products</a></li>
+          <li><a href="./Products">Find the lyrics</a></li>
           <li><a href="#">About</a></li>
           <li><a href="./Contact">Contact</a></li>
         </ul>
