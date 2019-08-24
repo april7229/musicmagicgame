@@ -17,15 +17,18 @@ class App extends Component {
       <Router>
     <React.Fragment> 
   <Navbar />
-  <Bar />
+  
+  
+  
   <div>
   
   
   
   <Switch>
+
   {/* <Route exact path="/Home" component ={Search} /> */}
   <Route exact path="/Contact" component ={Contact} />
-  {/* <Route exact path="/Products" component ={Bar} /> */}
+  
   <Route exact path="/Products" component ={Index} />
   
   
