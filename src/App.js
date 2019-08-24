@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from "./components/navbar/Navbar"
 import Contact from "./components/contact/Contact";
-import Bar from './layout/Bar';
 import Index from './layout/Index';
 import {Provider} from './context';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
+import Lyrics from './Tracks/Lyrics';
 
 
 class App extends Component {
@@ -26,11 +25,11 @@ class App extends Component {
   
   <Switch>
 
-  {/* <Route exact path="/Home" component ={Search} /> */}
+  
   <Route exact path="/Contact" component ={Contact} />
   
   <Route exact path="/Products" component ={Index} />
-  
+  <Route  path="Products/lyrics/track/id:" component ={Lyrics} />
   
   </Switch>
   </div>
