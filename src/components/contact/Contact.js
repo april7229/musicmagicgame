@@ -6,11 +6,35 @@ import './Contact.css';
   render() {
     return (
        <div className="context_box">
-       <h1>MartinezMangement</h1>
-       <h1>we build what you want</h1>
-       <h3>address:</h3>
-       <h3>Phone:</h3>
-       <h3>Email:</h3>
+      
+<div class="card">
+   <div class="banner">
+      <div class="avatar"></div>
+   </div>
+	<h3>April Martinez</h3>
+   <a href="mailto:martinezapril56@yahoo.com">📧martinezapril56@yahoo.com</a>
+   <a href="">📱 +1 800-300-0396</a>
+	<ul>
+      <a href="https://www.twitter.com/___cbrown___" target="_blank"><i class="fa fa-twitter" ></i></a>
+	   <a href="https://www.linkedin.com/in/-cbrown-" target="_blank"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.codepen.io/___cbrown___" target="_blank"><i class="fa fa-codepen"></i></a>
+      <a href="https://dribbble.com/___cbrown___" target="_blank"><i class="fa fa-dribbble" ></i></a>
+	</ul>
+</div>
+
+{/* <div class="card">
+   <div class="banner">
+	   <div class="avatar"></div>
+	</div>
+	<h3>Name</h3>
+   <a href="">📧 martinezapril56@yahoo.com</a>
+   <a href="">🌐 www.martinezmanagement.com</a>
+	<ul>
+	   <a href=""><i class="fa fa-github" style="font-size:16px"></i></a>
+		<a href=""><i class="fa fa-codepen" style="font-size:16px"></i></a>
+		<a href=""><i class="fa fa-spotify" style="font-size:16px"></i></a>
+   </ul>
+</div> */}
        </div>
     
     );
