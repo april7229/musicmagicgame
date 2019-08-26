@@ -1,0 +1,17 @@
+#projects{
+    display :flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.projects h1{
+    display :flex;
+    
+    justify-content: center;
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
