@@ -34,6 +34,20 @@ class Main extends Component {
 
 
                 </section>
+                <section id="projects">
+                    <h1>For you jenny</h1>
+                    <div class="grid-container">
+                        <div class="row">
+                            <div class="For you chris">
+                            <iframe git src="https://www.youtube.com/embed/XhzpxjuwZy0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </section>
             </>
 
         )
