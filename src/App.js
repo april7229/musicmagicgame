@@ -4,7 +4,7 @@ import Main from './components/Main/Main'
 import Navbar from "./components/navbar/Navbar";
 import Index from "./layout/Index";
 import Lyrics from "./Tracks/Lyrics";
-import Contact from './components/contact/Contact';
+import Contact from './components/contact/Info';
 import Home from './components/Home/Home'
 
 import "./App.css";

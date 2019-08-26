@@ -1,47 +1,13 @@
-#projects{
-    display :flex;
-
-    
-    justify-content: center;
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
 }
-.projects h1{
-    display :flex;
-    
-    justify-content: center;
-}
-
-.row {
-    display:flex;
-
-    justify-content: center;
-
-}
-
-
-
-
-
-#projects {
-
-  
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
   font-size: 30px;
+  text-align: center;
 }
-
-.row {
-  display:flex;
-  
-  width:100%;
-  margin-left:10px;
-  margin-bottom:10px;
-  
-}
-
-
-
-
-
