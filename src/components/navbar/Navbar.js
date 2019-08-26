@@ -10,9 +10,9 @@ import './Navbar.min.css';
        <div>
           <nav className="nav-center">
         <ul>
-          <li><a href="./Main">Home</a></li>
+          <li><a href="./">Home</a></li>
           <li><a href="Products">Find the lyrics</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="/About">About</a></li>
           <li><a href="Contact">Contact</a></li>
         </ul>
 

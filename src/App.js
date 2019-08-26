@@ -4,6 +4,8 @@ import Main from './components/Main/Main'
 import Navbar from "./components/navbar/Navbar";
 import Index from "./layout/Index";
 import Lyrics from "./Tracks/Lyrics";
+import Contact from './components/contact/Contact';
+import Home from './components/Home/Home'
 
 import "./App.css";
 
@@ -19,7 +21,9 @@ const App = () => {
             <Switch>
               <Route exact path="/Products" component={Index} />
               <Route exact path="/lyrics/track/:id" component={Lyrics} />
-              <Route exact path="/Main" component={Main} />
+              <Route exact path="/About" component={Main} />
+              <Route exact path="/Contact" component={Contact} />
+              <Route exact path="/" component={Home} />
             </Switch>
           </div>
         </>
